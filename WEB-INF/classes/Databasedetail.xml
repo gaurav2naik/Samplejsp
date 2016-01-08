@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CISConfiguration>
+	<CISDatabase>
+		<IPAddress>127.0.0.1</IPAddress>
+		<Port>27017</Port>
+		<DBName>CIS</DBName>
+		<!-- <UserName>CIS</UserName> <Password>CIS@123</Password> -->
+	</CISDatabase>
+	<SenderDetail>
+		<email>monisha.baptist@avekshaa.com</email>
+		<password>8722154444</password>
+	</SenderDetail>
+
+</CISConfiguration>

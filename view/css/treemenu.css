@@ -1,0 +1,170 @@
+html, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+	blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
+	em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup,
+	tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label,
+	legend, caption, tbody, tfoot, thead {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+/* body {
+	line-height: 1;
+} */
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+a.mm {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	width: 30px;
+	height: 30px;
+	display: block;
+}
+
+/* ---- END CSS RESET --- */
+
+/* body    
+{
+	font-family:Arial;
+	font-size:16px;
+	line-height: 23px;
+	color: #000000;
+} */
+.page-container {
+	width: 960px;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 20px;
+	position: relative;
+}
+
+img.bg {
+	/* Set rules to fill background */
+	min-height: 100%;
+	min-width: 1024px;
+	/* Set up proportionate scaling */
+	width: 100%;
+	height: auto;
+	/* Set up positioning */
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+@media screen and (max-width: 1024px) {
+	/* Specific to this particular image */
+	img.bg {
+		left: 50%;
+		margin-left: -512px; /* 50% */
+	}
+}
+
+.ie-six {
+	display: none;
+}
+
+/* START TREE MENU */
+#treeMenu li {
+	padding: 0 0 10px 10px;
+	color: black;
+}
+
+#treeMenu li {
+	cursor: pointer;
+}
+
+#treeMenu li.contentContainer {
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+#treeMenu li.contentViewing {
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+#treeMenu li.contentContainerMain {
+	background: url('../images/pointright.gif ') no-repeat -13px 1px;
+	color: #000000;
+	cursor: pointer;
+}
+
+#treeMenu li.link {
+	background: url('../images/pointright.gif ') no-repeat -13px 1px;
+	color: #000000;
+	cursor: pointer;
+}
+
+#treeMenu li.contentViewingMain {
+	background: url('../images/pointdown.gif ') no-repeat -3px 6px;
+	color: #FFFFFF;
+	cursor: default;
+}
+
+.contentContainer ul, .contentViewing ul, .contentContainerMain ul,
+	.contentViewingMain ul {
+	cursor: default;
+	border-left: 1px solid #000000;
+	color: #FFFC00;
+	margin: 5px 0 0 10px;
+}
+
+table {
+	text-color: #000000;
+}
+
+table, th {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 5px;
+	text-align: left;
+}
+
+table#t01 tr:nth-child(even) {
+	background-color: #B2F0FF;
+}
+
+table#t01 tr:nth-child(odd) {
+	background-color: #0099FF;
+}
+
+table#t01 th {
+	background-color: black;
+	color: white;
+}
+
+/* END TREE MENU */

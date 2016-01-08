@@ -1,0 +1,52 @@
+#graph1 {
+	height: 45%;
+	width: 55%;
+	margin-left: 2.5%;
+	position: absolute;
+	border-style: groove;
+	border: 1px solid navy;
+}
+
+#graph2 {
+	height: 28%;
+	width: 33%;
+	float: left;
+	padding: 5px; .
+	border-style: groove;
+	border: 1px solid navy;
+	margin-left: 63.5%;
+	margin-top: 3%;
+	position: absolute;
+}
+
+#graph3 {
+	height: 40%;
+	width: 60%;
+	float: left;
+	padding: 5px;
+	margin-left: 2.5%;
+	margin-top: 30%;
+	border-style: groove;
+	border: 1px solid navy;
+	position: absolute;
+}
+
+#nav {
+	height: 62.50%;
+	width: 23%;
+	float: left;
+	padding: 5px;
+	margin-left: 75%;
+	margin-top: 25%;
+	vertical-align: bottom;
+	position: absolute;
+}
+
+#navv1 {
+	height: 95%;
+	width: 90%;
+	margin-top: 1%;
+	margin-right: 2.5%;
+	margin-bottom: 5%;
+	margin-left: 2.5%;
+}

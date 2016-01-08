@@ -1,0 +1,535 @@
+@CHARSET "UTF-8";
+/*
+    Document   : test
+    Created on : Jan 18, 2014, 2:41 PM
+    Author     : Pushkar Kumar
+    Description:
+        Purpose of the stylesheet follows.
+*/
+root {
+	display: block;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	background-size: 100%;
+	/* background: -webkit-linear-gradient(rgb(125, 181, 255),
+		rgb(255, 255, 255)); Safari 5.1-6
+	background: -o-linear-gradient(rgb(125, 181, 255), rgb(255, 255, 255));
+	Opera 11.1-12
+	background: -moz-linear-gradient(rgb(125, 181, 255), rgb(255, 255, 255));
+	Fx 3.6-15
+	background: linear-gradient(rgb(125, 181, 255), rgb(255, 255, 255));
+	Standard
+	background-repeat: no-repeat;
+	float: left;
+	background-image:url("../image/banner4.jpg");
+	background-repeat: no-repeat;  */
+	background-color: white;
+	float: left;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica,
+		sans-serif;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/* v Wrapper for Footer v */
+#wrap {
+	min-height: 100%;
+	min-width: 100%;
+}
+
+#main {
+	overflow: auto;
+	padding-bottom: 40px; /* must be same height as the footer */
+}
+
+#footer {
+	position: relative;
+	margin-top: -40px; /* negative value of footer height */
+	height: 24px;
+	width: 100%;
+	left: 0px;
+	clear: both;
+	/* border-top-left-radius: 100px;
+	border-top-right-radius: 100px;
+	border-bottom-left-radius: 100px;
+	border-bottom-right-radius: 100px; */
+}
+
+#footer-bottom {
+	background-color: black;
+	color: white;
+	clear: both;
+	text-align: center;
+	padding-top: 5px;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	width: 100%
+}
+
+/*Opera Fix*/
+/* body:before { */
+/*     content:""; */
+/*     height:100%; */
+/*     float:left; */
+/*     width:0; */
+/*     margin-top:-32767px; */
+/* } */
+
+/* ^ Wrapper for Footer  ^ */
+#header {
+	background-color: #333333;
+	font-family: "Times New Roman";
+	height: 40px;
+	width: 100%;
+	font-size: 20px;
+	color: #99ccff;
+}
+
+#tab125 {
+	border-radius: 10px 25px;
+	line-height: 15px;
+	height: 300px;
+	width: 100%;
+	float: left;
+	padding: 0px;
+	margin-left: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#lmenu {
+	position: absolute;
+	top: 125px;
+	height: 85%;
+	width: 24.50%;
+	/* 	background-color:#019ad2; */
+	color: black;
+	margin-left: 0.75%;
+	overflow: auto;
+	border-style: double;
+	border: 10px;
+	border-color: black;
+	/*     -moz-border-top-left-radius: 10px; */
+	/*     -moz-border-top-right-radius: 10px; */
+	/*     -webkit-border-top-left-radius: 10px; */
+	/*     -webkit-border-top-right-radius: 10px; */
+	/*     border-top-left-radius: 10px; */
+	/*     border-top-right-radius: 10px; */
+	/*     border-bottom-left-radius: 10px; */
+	/*     border-bottom-right-radius: 10px; */
+	/*     box-shadow : 5px 5px 10px #0000FF; */
+	float: left;
+}
+
+#lmenuLive {
+	position: absolute;
+	/* top: 400px; */
+	height: 85%;
+	width: 24.50%;
+	/* 	background-color:#019ad2; */
+	color: black;
+	margin-left: 0.75%;
+	overflow: auto;
+	border-style: double;
+	border: 10px;
+	border-color: black;
+	/*     -moz-border-top-left-radius: 10px; */
+	/*     -moz-border-top-right-radius: 10px; */
+	/*     -webkit-border-top-left-radius: 10px; */
+	/*     -webkit-border-top-right-radius: 10px; */
+	/*     border-top-left-radius: 10px; */
+	/*     border-top-right-radius: 10px; */
+	/*     border-bottom-left-radius: 10px; */
+	/*     border-bottom-right-radius: 10px; */
+	/*     box-shadow : 5px 5px 10px #0000FF; */
+	float: left;
+}
+
+#lmenubutton {
+	position: absolute;
+	top: 10px;
+	margin-left: 15px;
+	margin-right: auto;
+	overflow: auto;
+}
+
+#MenuHeader {
+	height: 5%;
+	width: 100%;
+	background-color: #333333;
+	border-style: solid;
+	-moz-border-top-left-radius: 10px;
+	-moz-border-top-right-radius: 10px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+#IPHeader {
+	position: absolute;
+	top: 43px;
+	left: 20%;
+	height: 8%;
+	width: 80%;
+	font-family: "Times New Roman";
+	font-size: 20px;
+	background-color: #99ccff;
+	color: black;
+	border-style: solid;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#graph {
+	position: absolute;
+	top: 190px;
+	left: 27%;
+	height: 83%;
+	width: 70%;
+	background-color: whitesmoke;
+	color: black;
+	border-style: solid;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background-size: 100%;
+	background: -webkit-linear-gradient(rgb(125, 181, 255),
+		rgb(255, 255, 255)); /*Safari 5.1-6*/
+	background: -o-linear-gradient(rgb(125, 181, 255), rgb(255, 255, 255));
+	/*Opera 11.1-12*/
+	background: -moz-linear-gradient(rgb(125, 181, 255), rgb(255, 255, 255));
+	/*Fx 3.6-15*/
+	background: linear-gradient(rgb(125, 181, 255), rgb(255, 255, 255));
+	/*Standard*/
+	background-repeat: no-repeat;
+	border: 10px;
+	border-color: #000000;
+	-moz-border-top-left-radius: 10px;
+	-moz-border-top-right-radius: 10px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.graph {
+	position: absolute;
+	top: 130px;
+	left: 27%;
+	height: 83%;
+	width: 70%;
+	background-color: whitesmoke;
+	color: black;
+	border-style: solid;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background-size: 100%;
+	background: -webkit-linear-gradient(rgb(125, 181, 255),
+		rgb(255, 255, 255)); /*Safari 5.1-6*/
+	background: -o-linear-gradient(rgb(125, 181, 255), rgb(255, 255, 255));
+	/*Opera 11.1-12*/
+	background: -moz-linear-gradient(rgb(125, 181, 255), rgb(255, 255, 255));
+	/*Fx 3.6-15*/
+	background: linear-gradient(rgb(125, 181, 255), rgb(255, 255, 255));
+	/*Standard*/
+	background-repeat: no-repeat;
+	border: 10px;
+	border-color: #000000;
+	-moz-border-top-left-radius: 10px;
+	-moz-border-top-right-radius: 10px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#footer {
+	background-color: #333333;
+	color: #99ccff;
+	text-align: center;
+}
+
+.bdy {
+	margin: 10px;
+	line-height: 40px;
+	height: 40px;
+}
+
+#div1 {
+	height: 30px;
+	width: 10%;
+	float: left;
+	font-size: 24px;
+	font-family: MV Boli;
+	color: #0000FF;
+}
+
+#div2 {
+	font-size: 24px;
+	font-family: MV Boli;
+	color: #0000FF;
+	height: 30px;
+	width: 90%;
+	float: right;
+	text-align: right;
+}
+
+.sublogo {
+	padding-left: 18px;
+	font-size: 14px;
+	font-family: MV Boli;
+	color: #FFFFFF;
+}
+
+#nav {
+	height: 80%;
+	width: 25%;
+	margin-top: 0%;
+	float: left;
+	position: absolute;
+}
+
+#111 {
+	height: 20%;
+	width: 100%;
+	margin-top: 0%;
+	float: left;
+	position: absolute;
+}
+
+#222 {
+	height: 80%;
+	width: 100%;
+	margin-top: 0%;
+	float: left;
+	position: absolute;
+}
+
+/* #graph1 {
+	height: 40%;
+	float: left;
+	width: 56%;
+	font-size: 20px;
+	font-family: MV Boli;
+	margin-left: 32%;
+	margin-right: 5%;
+	margin-top: 2%;
+	position: absolute;
+	border-style: groove;
+	border: 1px solid black;
+}
+
+.graph1 {
+	height: 40%;
+	float: left;
+	width: 56%;
+	font-size: 20px;
+	font-family: MV Boli;
+	margin-left: 32%;
+	margin-right: 5%;
+	margin-top: 2%;
+	position: absolute;
+	border-style: groove;
+	border: solid black;
+}
+
+#graph2 {
+	height: 30%;
+	float: left;
+	width: 28%;
+	background-color: white;
+	color: red;
+	border-style: groove;
+	border: solid black;
+	margin-top: 26%;
+	margin-right: 2.5%;
+	margin-left: 27%;
+	position: absolute;
+}
+
+#graph3 {
+	height: 30%;
+	float: left;
+	width: 28%;
+	font-size: 20px;
+	font-family: MV Boli;
+	background-color: white;
+	color: red;
+	border-style: groove;
+	border: solid black;
+	margin-top: 26%;
+	margin-bottom: 0px;
+	margin-right: 2.5%;
+	margin-left: 66%;
+	position: absolute;
+}
+ */
+#navv1 {
+	height: 95%;
+	width: 90%;
+	margin-top: 1%;
+	margin-right: 2.5%;
+	margin-bottom: 5%;
+	margin-left: 2.5%;
+}
+
+.navv1 {
+	height: 95%;
+	width: 90%;
+	margin-top: 1%;
+	margin-right: 2.5%;
+	margin-bottom: 5%;
+	margin-left: 2.5%;
+}
+
+#osgraph1 {
+	height: 60%;
+	float: left;
+	width: 45%;
+	margin-left: 2.5%;
+	margin-right: 5%;
+	margin-top: 5%;
+	position: absolute;
+}
+
+#words {
+	height: 10%;
+	float: left;
+	width: 45%;
+	margin-left: 35%;
+	margin-right: 5%;
+	margin-top: 35%;
+	position: absolute;
+	color: red;
+	border: green;
+}
+
+#BROWSERGRAPH {
+	height: 60%;
+	float: left;
+	width: 45%;
+	margin-left: 50%;
+	margin-right: 2.5%;
+	margin-top: 5%;
+	position: absolute;
+}
+
+.pergauge {
+	height: 70%;
+	float: left;
+	width: 55%;
+	margin-left: 20%;
+	margin-right: 2.5%;
+	margin-top: 30%;
+	position: absolute;
+}
+
+#graph11 {
+	height: 50%;
+	float: left;
+	width: 45%;
+	background-color: white;
+	color: red;
+	border-style: groove;
+	/*     border: 2px solid navy; */
+	margin-top: 6%;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+	position: absolute;
+}
+
+#graph22 {
+	height: 50%;
+	float: left;
+	width: 45%;
+	font-size: 20px;
+	font-family: MV Boli;
+	background-color: white;
+	color: red;
+	border-style: groove;
+	/*     border: 2px solid navy; */
+	margin-top: 6%;
+	margin-bottom: 0px;
+	margin-right: 2.5%;
+	margin-left: 52.5%;
+	position: absolute;
+}
+
+#custom_header {
+	color: blue;
+	font-size: 130%;
+}
+
+#graph_incident {
+	height: 80%;
+	float: left;
+	width: 68%;
+	font-size: 20px;
+	font-family: MV Boli;
+	margin-left: 28%;
+	margin-right: 0%;
+	margin-top: 3%;
+	position: absolute;
+	border-style: groove;
+	border: 1px solid black;
+}
+
+#graph_live {
+	height: 80%;
+	float: left;
+	width: 68%;
+	font-size: 20px;
+	font-family: MV Boli;
+	margin-left: 28%;
+	margin-right: 0%;
+	margin-top: 3%;
+	position: absolute;
+	border-style: groove;
+	border: 1px solid black;
+}
+
+#graphmain {
+	float: left;
+	width: 68%;
+	margin-left: 28%;
+	margin-right: 0%;
+	margin-top:;
+	position: absolute;
+}
+
+#graph_mob {
+	height: 80%;
+	float: left;
+	width: 68%;
+	font-size: 20px;
+	font-family: MV Boli;
+	margin-left: 28%;
+	margin-right: 0%;
+	margin-top: 0%;
+	position: absolute;
+	border-style: groove;
+	border: 1px solid black;
+}
+
+#error {
+	color: red;
+}
